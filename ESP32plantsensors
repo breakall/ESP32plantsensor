@@ -34,7 +34,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 const int AirValue = 3620;   //you need to replace this value with Value_1
 const int WaterValue = 1680;  //you need to replace this value with Value_2
-const int SensorPin = 2;
+const int SensorPin = 35;
 int soilMoistureValue = 1;
 int soilmoisturepercent=0;
 
