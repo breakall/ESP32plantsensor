@@ -32,8 +32,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // soil moisture sensor
 
-const int AirValue = 3620;   //you need to replace this value with Value_1
-const int WaterValue = 1680;  //you need to replace this value with Value_2
+const int AirValue = 2850;   
+const int WaterValue = 1200;  
 const int SensorPin = 34;
 int soilMoistureValue = 1;
 int soilmoisturepercent=0;
